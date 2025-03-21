@@ -29,7 +29,8 @@ p {
 /* Navigation Bar */
 header {
     background: #0044cc;
-    background: linear-gradient(#0044cc, #0E374A);
+    background: linear-gradient(to left, #0044cc, #0E374A);
+    background: linear-gradient(to right, #0044cc, #0E374A);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -43,7 +44,7 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    text-shadow: 3px 3px 5px;
+    text-shadow: 2px 2px 2.5px;
 }
 
 nav ul {
