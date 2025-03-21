@@ -10,12 +10,13 @@ body {
     box-sizing: border-box;
     background-color: #f4f4f4;
     color: #333;
-    /* color: #222; */
+    color: #0E374A;
 }
 
 h1, h2 {
     text-align: center;
     color: #0044cc;
+    color: #0E374A;
 }
 
 p {
@@ -28,6 +29,7 @@ p {
 /* Navigation Bar */
 header {
     background: #0044cc;
+    background: linear-gradient(#0044cc, #0E374A);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -41,6 +43,7 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    text-shadow: 3px 3px 5px;
 }
 
 nav ul {
@@ -70,9 +73,14 @@ nav ul li a {
 } */
 
 /* about us */
+#about {
+    margin-top: 4rem;
+}
 
 #company-name {
     color: #0044cc5d;
+    color: #042E42;
+    color: #0E374A;
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -87,7 +95,6 @@ section p {
     font-size: 1.2rem;
     line-height: 2rem;
     letter-spacing: 2px;
-    /* word-spacing: 0.5rem; */
     text-align: justify;
 }
 
@@ -116,14 +123,15 @@ section p {
 #values div {
     display: flex;
     justify-content: center;
-    font-weight: bolder;
-    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #042E42;
 }
 
 #values span {
     color: #0044cc5d;
     margin-inline: 1rem;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 
 /* Partners Section */
@@ -159,6 +167,7 @@ section p {
 /* Footer */
 footer {
     background: #222;
+    background: #0E374A;
     color: white;
     text-align: center;
     padding: 20px;
