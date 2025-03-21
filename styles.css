@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    /* font-family: 'Arial', sans-serif; */
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f4f4f4;
     color: #333;
+    /* color: #222; */
 }
 
 h1, h2 {
@@ -56,12 +61,34 @@ nav ul li a {
 }
 
 /* Hero Section */
-.hero {
+/* .hero {
     background: url('hero-image.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 80px 20px;
     font-size: 24px;
+} */
+
+/* about us */
+
+#company-name {
+    color: #0044cc5d;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+section h2 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+section p {
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    /* word-spacing: 0.5rem; */
+    text-align: justify;
 }
 
 /* Services Section */
@@ -82,6 +109,23 @@ nav ul li a {
     text-align: center;
 }
 
+/* values */
+#values {
+    margin-bottom: 3rem;
+}
+#values div {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#values span {
+    color: #0044cc5d;
+    margin-inline: 1rem;
+    font-weight: bolder;
+}
+
 /* Partners Section */
 .partner-slider {
     overflow: hidden;
@@ -92,6 +136,7 @@ nav ul li a {
 
 .partner-track {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
     animation: slide 10s linear infinite;
 }
@@ -99,14 +144,15 @@ nav ul li a {
 .partner-track img {
     width: 150px;
     height: auto;
+    height: 80px;
 }
 
 @keyframes slide {
     from {
-        transform: translateX(0);
+        transform: translateX(50%);
     }
     to {
-        transform: translateX(-50%);
+        transform: translateX(-30%);
     }
 }
 
@@ -118,3 +164,17 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+
+/* scroll effect */
+/* .scroll-el {
+    transform: translateX(10%);
+    transition: transform 0.4s ease;
+}
+
+.scroll-el:nth-last-of-type(even) {
+    transform: translateX(-10%);
+} */
+
+/* .scroll-el:nth-of-type(even) {
+    transform: translateX(-400%);
+} */
