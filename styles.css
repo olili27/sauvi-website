@@ -31,6 +31,7 @@ header {
     background: #0044cc;
     background: linear-gradient(to left, #0044cc, #0E374A);
     background: linear-gradient(to right, #0044cc, #0E374A);
+    background:  #0E374A;
     color: white;
     display: flex;
     justify-content: space-between;
