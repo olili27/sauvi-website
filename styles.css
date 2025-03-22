@@ -65,6 +65,21 @@ nav ul li a {
     font-weight: bold;
 }
 
+#menu {
+    min-width: fit-content;
+    display: none;
+}
+
+#menu img {
+    width: 40px;
+    height: auto;
+    /* height: 80px; */
+}
+
+#menu img:hover {
+    cursor: pointer;
+}
+
 /* Hero Section */
 /* .hero {
     background: url('hero-image.jpg') no-repeat center center/cover;
@@ -189,3 +204,16 @@ footer {
 /* .scroll-el:nth-of-type(even) {
     transform: translateX(-400%);
 } */
+
+
+/* media queries */
+
+@media(max-width: 800px) {
+    #menu {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
