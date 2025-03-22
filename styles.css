@@ -17,6 +17,8 @@ h1, h2 {
     text-align: center;
     color: #0044cc;
     color: #0E374A;
+    color: #2c134e;
+    text-transform: uppercase;
 }
 
 p {
@@ -26,12 +28,19 @@ p {
     line-height: 1.6;
 }
 
+section {
+    padding-inline: 1.5rem;
+}
+
 /* Navigation Bar */
 header {
     background: #0044cc;
     background: linear-gradient(to left, #0044cc, #0E374A);
     background: linear-gradient(to right, #0044cc, #0E374A);
-    background:  #0E374A;
+    background:  #8234F3;
+    /* background:  #883D74; */
+    /* background: linear-gradient(to right, #883D74, #8234F3); */
+    /* background: linear-gradient(#883D74, #8234F3); */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -46,6 +55,11 @@ header {
     font-size: 24px;
     font-weight: bold;
     text-shadow: 2px 2px 2.5px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
 }
 
 nav ul {
@@ -73,6 +87,8 @@ nav ul li a {
 #menu img {
     width: 40px;
     height: auto;
+    color: #2c134e;
+    background-color: #2c134e;
     /* height: 80px; */
 }
 
@@ -185,6 +201,7 @@ section p {
 footer {
     background: #222;
     background: #0E374A;
+    background: #2c134e;
     color: white;
     text-align: center;
     padding: 20px;
