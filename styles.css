@@ -103,7 +103,8 @@ nav ul li a {
 
 .hero {
     background: url('./images/other/sixteen.jpeg') no-repeat center center/cover;
-    background: url('./images/other/sixteen.jpeg');
+    /* background: url('./images/other/sixteen.jpeg') no-repeat; */
+    /* background: url('./images/other/sixteen.jpeg'); */
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -278,7 +279,7 @@ footer h2 {
 
 /* media queries */
 
-@media(max-width: 800px) {
+@media screen and (max-width: 800px) {
     #menu {
         display: block;
     }
@@ -296,6 +297,7 @@ footer h2 {
         flex-direction: column;
         position: absolute;
         padding-bottom: 1rem;
+        top: 1rem;
         width: 10rem;
         background-color: #3f2f57;
     }
